@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="json-libraries">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../Lviv IT School/json-libraries" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../Lviv IT School/json-libraries" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../../Lviv IT School/json-libraries" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../Lviv IT School/json-libraries" recursive="false" type="SOURCES" />
+  </library>
+</component>

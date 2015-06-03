@@ -1,0 +1,52 @@
+[
+  {
+    "lastName": "Smith",
+    "position": "Manager",
+    "salary": 500
+  },
+  {
+    "lastName": "Howells",
+    "position": "Reporter",
+    "salary": 750
+  },
+  {
+    "lastName": "Budrene",
+    "position": "IT consultant",
+    "salary": 800
+  },
+  {
+    "lastName": "Priest",
+    "position": "Film producer",
+    "salary": 1000
+  },
+  {
+    "lastName": "Dininny",
+    "position": "Bank manager",
+    "salary": 400
+  },
+  {
+    "lastName": "Taborsky",
+    "position": "Pilot",
+    "salary": 900
+  },
+  {
+    "lastName": "Fung",
+    "position": "Fundraiser",
+    "salary": 500
+  },
+  {
+    "lastName": "Oliva",
+    "position": "Travel agent",
+    "salary": 100
+  },
+  {
+    "lastName": "Deland",
+    "position": "Chemist",
+    "salary": 900
+  },
+  {
+    "lastName": "Barcus",
+    "position": "Receptionist",
+    "salary": 420
+  }
+]

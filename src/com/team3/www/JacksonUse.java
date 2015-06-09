@@ -3,15 +3,14 @@ package com.team3.www;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.type.TypeFactory;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.*;
 
-public class JacksonUse {
-    public static void main(String[] args) {
+public class JacksonUse{
+    public static void main(String[] args) throws IllegalAccessException, InstantiationException {
         InputStream input = null;
         try {
             input = new FileInputStream("src/com/team3/www/employee.json");
@@ -32,12 +31,10 @@ public class JacksonUse {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         //Arrays.sort(employee.toArray());
         // System.out.print(employee);
 
-
-        System.out.println(employee.get(0).getLastName() + " " +
+     System.out.println(employee.get(0).getLastName() + " " +
                 employee.get(0).getPosition() + " " +
                 employee.get(0).getSalary());
         System.out.println(employee.get(1).getLastName() + " " +

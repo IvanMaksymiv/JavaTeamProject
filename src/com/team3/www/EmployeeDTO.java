@@ -6,7 +6,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class EmployeeDTO {
+class EmployeeDTO {
     private String lastName;
     private String position;
     private int salary;
@@ -14,7 +14,7 @@ public class EmployeeDTO {
     @JsonCreator
     public EmployeeDTO(@JsonProperty("lastName") String lastName,
                        @JsonProperty("position") String position,
-                       @JsonProperty("salary") int salary){
+                       @JsonProperty("salary") int salary) {
         this.lastName = lastName;
         this.position = position;
         this.salary = salary;
@@ -45,12 +45,13 @@ public class EmployeeDTO {
         this.salary = salary;
     }
 
-@Override
-public String toString() {
+    @Override
+    public String toString() {
         return "[lastName=" + this.lastName + ", position=" + this.position + ", salary="
-        + this.salary + "]";
-        }
+                + this.salary + "]";
+    }
 }
+
 
 
 

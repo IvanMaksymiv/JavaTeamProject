@@ -37,8 +37,11 @@ public class JacksonUse {
 
         Collections.sort(employee, new Comparators(new LastNameComparator(),
 		new PositionComparator(), new SalaryComparator()));
+        for (EmployeeDTO item : employee) {
+            System.out.println(item.getLastName()+ " " + item.getPosition() + " " + item.getSalary());
+        }
         
-        System.out.println(employee.get(0).getLastName() + " " +
+        /*System.out.println(employee.get(0).getLastName() + " " +
                 employee.get(0).getPosition() + " " +
                 employee.get(0).getSalary());
         System.out.println(employee.get(1).getLastName() + " " +
@@ -56,9 +59,9 @@ public class JacksonUse {
         System.out.println(employee.get(5).getLastName() + " "
 		+ employee.get(5).getPosition() + " "
 		+ employee.get(5).getSalary());
-	System.out.println(employee.get(6).getLastName() + " "
+	    System.out.println(employee.get(6).getLastName() + " "
 		+ employee.get(6).getPosition() + " "
 		+ employee.get(6).getSalary());
-        System.out.println("------------------------");
+        System.out.println("------------------------");*/
     }
 }

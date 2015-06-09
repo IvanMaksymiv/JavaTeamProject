@@ -8,6 +8,7 @@ public class Comparators implements Comparator<EmployeeDTO> {
 
     private List<Comparator<EmployeeDTO>> listComparators;
 
+    @SafeVarargs
     public Comparators(Comparator<EmployeeDTO>... comparators) {
 	this.listComparators = Arrays.asList(comparators);
     }
